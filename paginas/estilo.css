@@ -6,6 +6,18 @@ body {
     font-family: sans-serif;
     
 }
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: calc(100% - 4rem);
+}
+
+.footer {
+    height: 4rem;
+    background-color: #e2e2e2
+}
 .header {   
     background-color:black;
     min-height: 100px;
@@ -107,7 +119,8 @@ img {
 .secciones{
     display: flex;
     align-items: center;
-    padding: 40px;
+    padding: 80px;
+    
 }
 @media screen and (max-width: 540px){
     .secciones{
@@ -266,7 +279,7 @@ h2{
     text-align: left;
     margin: 0;
     font-size: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 300px;
 }
 
 input, textarea{
@@ -277,11 +290,12 @@ input, textarea{
     font-size: 17px;
 }
 
-/**index4*/
+/**servicios*/
 .tititulo{
     border-radius: 0%;
-    margin: 10px;
-    width: 600px;
+    margin: 50px;
+    margin-top: 50px;
+    width: 150px;
     height: 600px;
 }
 
